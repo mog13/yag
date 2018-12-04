@@ -1,0 +1,220 @@
+html {
+  box-sizing: border-box; }
+
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+.container {
+  width: 100%; }
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; }
+
+.column {
+  flex-basis: 100%; }
+
+@media screen and (min-width: 768px) {
+  .column {
+    flex: 1; }
+    .column._1 {
+      flex: 0.1; }
+    .column._2 {
+      flex: 0.2; }
+    .column._3 {
+      flex: 0.3; }
+    .column._4 {
+      flex: 0.4; }
+    .column._5 {
+      flex: 0.5; }
+    .column._6 {
+      flex: 0.6; }
+    .column._7 {
+      flex: 0.7; }
+    .column._8 {
+      flex: 0.8; }
+    .column._9 {
+      flex: 0.9; }
+    .column._10 {
+      flex: 1; }
+    .column._11 {
+      flex: 1.1; }
+    .column._12 {
+      flex: 1.2; }
+    .column._13 {
+      flex: 1.3; }
+    .column._14 {
+      flex: 1.4; }
+    .column._15 {
+      flex: 1.5; }
+    .column._16 {
+      flex: 1.6; }
+    .column._17 {
+      flex: 1.7; }
+    .column._18 {
+      flex: 1.8; }
+    .column._19 {
+      flex: 1.9; }
+    .column._20 {
+      flex: 2; }
+    .column._21 {
+      flex: 2.1; }
+    .column._22 {
+      flex: 2.2; }
+    .column._23 {
+      flex: 2.3; }
+    .column._24 {
+      flex: 2.4; }
+    .column._25 {
+      flex: 2.5; }
+    .column._26 {
+      flex: 2.6; }
+    .column._27 {
+      flex: 2.7; }
+    .column._28 {
+      flex: 2.8; }
+    .column._29 {
+      flex: 2.9; }
+    .column._30 {
+      flex: 3; }
+    .column._31 {
+      flex: 3.1; }
+    .column._32 {
+      flex: 3.2; }
+    .column._33 {
+      flex: 3.3; }
+    .column._34 {
+      flex: 3.4; }
+    .column._35 {
+      flex: 3.5; }
+    .column._36 {
+      flex: 3.6; }
+    .column._37 {
+      flex: 3.7; }
+    .column._38 {
+      flex: 3.8; }
+    .column._39 {
+      flex: 3.9; }
+    .column._40 {
+      flex: 4; }
+    .column._41 {
+      flex: 4.1; }
+    .column._42 {
+      flex: 4.2; }
+    .column._43 {
+      flex: 4.3; }
+    .column._44 {
+      flex: 4.4; }
+    .column._45 {
+      flex: 4.5; }
+    .column._46 {
+      flex: 4.6; }
+    .column._47 {
+      flex: 4.7; }
+    .column._48 {
+      flex: 4.8; }
+    .column._49 {
+      flex: 4.9; }
+    .column._50 {
+      flex: 5; }
+    .column._51 {
+      flex: 5.1; }
+    .column._52 {
+      flex: 5.2; }
+    .column._53 {
+      flex: 5.3; }
+    .column._54 {
+      flex: 5.4; }
+    .column._55 {
+      flex: 5.5; }
+    .column._56 {
+      flex: 5.6; }
+    .column._57 {
+      flex: 5.7; }
+    .column._58 {
+      flex: 5.8; }
+    .column._59 {
+      flex: 5.9; }
+    .column._60 {
+      flex: 6; }
+    .column._61 {
+      flex: 6.1; }
+    .column._62 {
+      flex: 6.2; }
+    .column._63 {
+      flex: 6.3; }
+    .column._64 {
+      flex: 6.4; }
+    .column._65 {
+      flex: 6.5; }
+    .column._66 {
+      flex: 6.6; }
+    .column._67 {
+      flex: 6.7; }
+    .column._68 {
+      flex: 6.8; }
+    .column._69 {
+      flex: 6.9; }
+    .column._70 {
+      flex: 7; }
+    .column._71 {
+      flex: 7.1; }
+    .column._72 {
+      flex: 7.2; }
+    .column._73 {
+      flex: 7.3; }
+    .column._74 {
+      flex: 7.4; }
+    .column._75 {
+      flex: 7.5; }
+    .column._76 {
+      flex: 7.6; }
+    .column._77 {
+      flex: 7.7; }
+    .column._78 {
+      flex: 7.8; }
+    .column._79 {
+      flex: 7.9; }
+    .column._80 {
+      flex: 8; }
+    .column._81 {
+      flex: 8.1; }
+    .column._82 {
+      flex: 8.2; }
+    .column._83 {
+      flex: 8.3; }
+    .column._84 {
+      flex: 8.4; }
+    .column._85 {
+      flex: 8.5; }
+    .column._86 {
+      flex: 8.6; }
+    .column._87 {
+      flex: 8.7; }
+    .column._88 {
+      flex: 8.8; }
+    .column._89 {
+      flex: 8.9; }
+    .column._90 {
+      flex: 9; }
+    .column._91 {
+      flex: 9.1; }
+    .column._92 {
+      flex: 9.2; }
+    .column._93 {
+      flex: 9.3; }
+    .column._94 {
+      flex: 9.4; }
+    .column._95 {
+      flex: 9.5; }
+    .column._96 {
+      flex: 9.6; }
+    .column._97 {
+      flex: 9.7; }
+    .column._98 {
+      flex: 9.8; }
+    .column._99 {
+      flex: 9.9; }
+    .column._100 {
+      flex: 10; } }

@@ -4,7 +4,7 @@
   "description": "yet another grid",
   "main": "yag.css",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build":"node-sass yag.scss yag.css"
   },
   "repository": {
     "type": "git",

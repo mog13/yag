@@ -2,6 +2,35 @@
 html {
   box-sizing: border-box;
 }
+
 *, *:before, *:after {
   box-sizing: inherit;
+}
+
+.container {
+  width: 100%;
+}
+
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.column {
+  flex-basis: 100%;
+}
+
+//on ipads and below always take entire row
+@media screen and (min-width: 768px) {
+  .column {
+    flex: 1;
+    @for $i from 1 through 100 {
+      &._#{$i} {
+        flex: #{$i/10};
+      }
+    }
+
+  }
 }
