@@ -6,6 +6,9 @@ html {
 
 .container {
   width: 100%; }
+  .container.padded {
+    padding-left: 1rem;
+    padding-right: 1rem; }
 
 .row {
   display: flex;

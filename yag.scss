@@ -9,6 +9,10 @@ html {
 
 .container {
   width: 100%;
+  &.padded{
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
 }
 
 
