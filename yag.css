@@ -7,40 +7,40 @@ html {
 .container {
   width: 100%; }
   .container.padding-l {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem; }
+    padding-left: 3rem;
+    padding-right: 3rem; }
   .container.padding-m {
+    padding-left: 2rem;
+    padding-right: 2rem; }
+  .container.padding-s {
     padding-left: 1rem;
     padding-right: 1rem; }
-  .container.padding-s {
-    padding-left: .5rem;
-    padding-right: .5rem; }
 
 .row {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap; }
   .row.padding-l {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem; }
+    padding-left: 3rem;
+    padding-right: 3rem; }
   .row.padding-m {
+    padding-left: 2rem;
+    padding-right: 2rem; }
+  .row.padding-s {
     padding-left: 1rem;
     padding-right: 1rem; }
-  .row.padding-s {
-    padding-left: .5rem;
-    padding-right: .5rem; }
 
 .column {
   flex-basis: 100%; }
   .column.padding-l {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem; }
+    padding-left: 3rem;
+    padding-right: 3rem; }
   .column.padding-m {
+    padding-left: 2rem;
+    padding-right: 2rem; }
+  .column.padding-s {
     padding-left: 1rem;
     padding-right: 1rem; }
-  .column.padding-s {
-    padding-left: .5rem;
-    padding-right: .5rem; }
 
 @media screen and (min-width: 768px) {
   .column {

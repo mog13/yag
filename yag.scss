@@ -1,3 +1,7 @@
+$large: 3rem;
+$medium: 2rem;
+$small: 1rem;
+
 //reset box-sizing to make grids layout properly
 html {
   box-sizing: border-box;
@@ -9,17 +13,17 @@ html {
 
 @mixin padding() {
   &.padding-l {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+    padding-left: $large;
+    padding-right: $large;
   }
   &.padding-m {
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: $medium;
+    padding-right: $medium;
   }
 
   &.padding-s {
-    padding-left: .5rem;
-    padding-right: .5rem;
+    padding-left: $small;
+    padding-right: $small;
   }
 
 
