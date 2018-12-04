@@ -1,0 +1,7 @@
+//reset box-sizing to make grids layout properly
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
