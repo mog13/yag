@@ -1,3 +1,7 @@
+$large: 3rem;
+$medium: 2rem;
+$small: 1rem;
+
 //reset box-sizing to make grids layout properly
 html {
   box-sizing: border-box;
@@ -7,23 +11,39 @@ html {
   box-sizing: inherit;
 }
 
-.container {
-  width: 100%;
-  &.padded{
-    padding-left: 1rem;
-    padding-right: 1rem;
+@mixin padding() {
+  &.padding-l {
+    padding-left: $large;
+    padding-right: $large;
   }
+  &.padding-m {
+    padding-left: $medium;
+    padding-right: $medium;
+  }
+
+  &.padding-s {
+    padding-left: $small;
+    padding-right: $small;
+  }
+
+
 }
 
+.container {
+  width: 100%;
+  @include padding();
+}
 
 .row {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  @include padding();
 }
 
 .column {
   flex-basis: 100%;
+  @include padding();
 }
 
 //on ipads and below always take entire row

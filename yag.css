@@ -6,7 +6,13 @@ html {
 
 .container {
   width: 100%; }
-  .container.padded {
+  .container.padding-l {
+    padding-left: 3rem;
+    padding-right: 3rem; }
+  .container.padding-m {
+    padding-left: 2rem;
+    padding-right: 2rem; }
+  .container.padding-s {
     padding-left: 1rem;
     padding-right: 1rem; }
 
@@ -14,9 +20,27 @@ html {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap; }
+  .row.padding-l {
+    padding-left: 3rem;
+    padding-right: 3rem; }
+  .row.padding-m {
+    padding-left: 2rem;
+    padding-right: 2rem; }
+  .row.padding-s {
+    padding-left: 1rem;
+    padding-right: 1rem; }
 
 .column {
   flex-basis: 100%; }
+  .column.padding-l {
+    padding-left: 3rem;
+    padding-right: 3rem; }
+  .column.padding-m {
+    padding-left: 2rem;
+    padding-right: 2rem; }
+  .column.padding-s {
+    padding-left: 1rem;
+    padding-right: 1rem; }
 
 @media screen and (min-width: 768px) {
   .column {
