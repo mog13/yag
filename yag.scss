@@ -7,23 +7,39 @@ html {
   box-sizing: inherit;
 }
 
-.container {
-  width: 100%;
-  &.padded{
+@mixin padding() {
+  &.padding-l {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+  &.padding-m {
     padding-left: 1rem;
     padding-right: 1rem;
   }
+
+  &.padding-s {
+    padding-left: .5rem;
+    padding-right: .5rem;
+  }
+
+
 }
 
+.container {
+  width: 100%;
+  @include padding();
+}
 
 .row {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  @include padding();
 }
 
 .column {
   flex-basis: 100%;
+  @include padding();
 }
 
 //on ipads and below always take entire row
